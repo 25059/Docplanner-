@@ -1,0 +1,155 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 12%;
+    margin-top: 50px;
+}
+.ABOUT{
+    color: rgb(6, 184, 139);
+    margin-right: 15px;
+}
+.CARRER{
+    color: gray;
+    margin-right: 15px;
+}
+.DEPARTMENTS{
+    color: gray;
+    margin-right: 15px;
+}
+.main{
+    text-align: center;
+}
+.image1{
+    text-align: center;
+}
+.grid{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 46% 46%;
+    
+}
+.GRID{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns:30% 30% 30%;
+
+}
+#malade{
+    background-color: aqua;
+    
+}
+#medecin{
+    background-color:#587dd4;
+}
+#clinique{
+    background-color: #747474;
+}
+.brand{
+    font-size: 1.625em;
+    width: 33%;
+    float: left;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    flex-direction: row;
+    background-color: #00b39b;
+}
+.box{
+    background-color: #fff;
+    height: 250px;
+    width: 180px;
+    margin-top: 31%;
+    text-align: center;
+    margin-bottom: 20%;
+}
+.imger{
+    height: 500px;
+    width: 500px;
+}
+.descr{
+    font-size: larger;
+}
+.slogan{
+    text-align: center;
+    font-size: 2.2em;
+    color: rgb(13, 129, 224);
+}
+.box-2{
+    
+}
+.h1{
+    font-size: 1.456em;
+    text-align: center;
+    color: #00b39b;   
+    
+}
+.flex-container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-item1{
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+.flex-item1 a{
+    display: block;
+    position: relative;
+}
+.flex-item1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.thumbnail{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.897);/* couleur de fond bleue */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.country{
+    font-weight: bold;
+    color: black;
+}
+.openings-link{
+    color: #fff;
+    background-color: blue;
+    border-style: ridge;
+}
+.join-us{
+    text-align: center;
+}
+.meta{
+    font-family:  Work Sans,Arial,sans-serif;
+    color: gray;
+    bottom: 0;
+    font-weight: 150;
+    letter-spacing: -.3px;
+
+    
+}
+.btn{
+    background-color: blue;
+}
+.footer{
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+}
+.footer p{
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
